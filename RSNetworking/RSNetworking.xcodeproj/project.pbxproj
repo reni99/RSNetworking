@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C4D882A2593D80C3D252CB6 /* libPods-RSNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3F5832117FDAFAB08C84B0 /* libPods-RSNetworking.a */; };
+		E2AC76BA1EF6EA9D009DDC95 /* RSNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E2AC76B81EF6EA9D009DDC95 /* RSNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2AC76E61EF6EBD3009DDC95 /* RSHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E2AC76E41EF6EBD3009DDC95 /* RSHTTPSessionManager.h */; };
+		E2AC76E71EF6EBD3009DDC95 /* RSHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AC76E51EF6EBD3009DDC95 /* RSHTTPSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBE28BFE60B87FFF9BFDDBE5 /* Pods-RSNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSNetworking/Pods-RSNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		E2AC76B51EF6EA9D009DDC95 /* RSNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AC76B81EF6EA9D009DDC95 /* RSNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSNetworking.h; sourceTree = "<group>"; };
+		E2AC76B91EF6EA9D009DDC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2AC76E41EF6EBD3009DDC95 /* RSHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSHTTPSessionManager.h; sourceTree = "<group>"; };
+		E2AC76E51EF6EBD3009DDC95 /* RSHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSHTTPSessionManager.m; sourceTree = "<group>"; };
+		E6EB170824271A67B1F44ED7 /* Pods-RSNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSNetworking/Pods-RSNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		FC3F5832117FDAFAB08C84B0 /* libPods-RSNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2AC76B11EF6EA9D009DDC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4D882A2593D80C3D252CB6 /* libPods-RSNetworking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A3F736B8AC75E4CBB9B8F11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F5832117FDAFAB08C84B0 /* libPods-RSNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFA24A978AE32EB24C6696D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6EB170824271A67B1F44ED7 /* Pods-RSNetworking.debug.xcconfig */,
+				BBE28BFE60B87FFF9BFDDBE5 /* Pods-RSNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2AC76AB1EF6EA9D009DDC95 = {
+			isa = PBXGroup;
+			children = (
+				E2AC76B71EF6EA9D009DDC95 /* RSNetworking */,
+				E2AC76B61EF6EA9D009DDC95 /* Products */,
+				CFA24A978AE32EB24C6696D7 /* Pods */,
+				3A3F736B8AC75E4CBB9B8F11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2AC76B61EF6EA9D009DDC95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2AC76B51EF6EA9D009DDC95 /* RSNetworking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2AC76B71EF6EA9D009DDC95 /* RSNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E2AC76B81EF6EA9D009DDC95 /* RSNetworking.h */,
+				E2AC76E41EF6EBD3009DDC95 /* RSHTTPSessionManager.h */,
+				E2AC76E51EF6EBD3009DDC95 /* RSHTTPSessionManager.m */,
+				E2AC76B91EF6EA9D009DDC95 /* Info.plist */,
+			);
+			path = RSNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E2AC76B21EF6EA9D009DDC95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AC76E61EF6EBD3009DDC95 /* RSHTTPSessionManager.h in Headers */,
+				E2AC76BA1EF6EA9D009DDC95 /* RSNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E2AC76B41EF6EA9D009DDC95 /* RSNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2AC76BD1EF6EA9D009DDC95 /* Build configuration list for PBXNativeTarget "RSNetworking" */;
+			buildPhases = (
+				6816B4A2E74D6A21F4EDAFFB /* [CP] Check Pods Manifest.lock */,
+				E2AC76B01EF6EA9D009DDC95 /* Sources */,
+				E2AC76B11EF6EA9D009DDC95 /* Frameworks */,
+				E2AC76B21EF6EA9D009DDC95 /* Headers */,
+				E2AC76B31EF6EA9D009DDC95 /* Resources */,
+				92835881FBBB2DEFE332E61B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSNetworking;
+			productName = RSNetworking;
+			productReference = E2AC76B51EF6EA9D009DDC95 /* RSNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2AC76AC1EF6EA9D009DDC95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Renato Stauffer";
+				TargetAttributes = {
+					E2AC76B41EF6EA9D009DDC95 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = E2AC76AF1EF6EA9D009DDC95 /* Build configuration list for PBXProject "RSNetworking" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2AC76AB1EF6EA9D009DDC95;
+			productRefGroup = E2AC76B61EF6EA9D009DDC95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2AC76B41EF6EA9D009DDC95 /* RSNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2AC76B31EF6EA9D009DDC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6816B4A2E74D6A21F4EDAFFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92835881FBBB2DEFE332E61B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSNetworking/Pods-RSNetworking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2AC76B01EF6EA9D009DDC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AC76E71EF6EBD3009DDC95 /* RSHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2AC76BB1EF6EA9D009DDC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2AC76BC1EF6EA9D009DDC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2AC76BE1EF6EA9D009DDC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6EB170824271A67B1F44ED7 /* Pods-RSNetworking.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BD7VD67BSV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RSNetworking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.renatostauffer.RSNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2AC76BF1EF6EA9D009DDC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE28BFE60B87FFF9BFDDBE5 /* Pods-RSNetworking.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BD7VD67BSV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RSNetworking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.renatostauffer.RSNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2AC76AF1EF6EA9D009DDC95 /* Build configuration list for PBXProject "RSNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AC76BB1EF6EA9D009DDC95 /* Debug */,
+				E2AC76BC1EF6EA9D009DDC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2AC76BD1EF6EA9D009DDC95 /* Build configuration list for PBXNativeTarget "RSNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AC76BE1EF6EA9D009DDC95 /* Debug */,
+				E2AC76BF1EF6EA9D009DDC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2AC76AC1EF6EA9D009DDC95 /* Project object */;
+}
