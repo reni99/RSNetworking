@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6C4D882A2593D80C3D252CB6 /* libPods-RSNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3F5832117FDAFAB08C84B0 /* libPods-RSNetworking.a */; };
 		E2AC76BA1EF6EA9D009DDC95 /* RSNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E2AC76B81EF6EA9D009DDC95 /* RSNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2AC76E61EF6EBD3009DDC95 /* RSHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E2AC76E41EF6EBD3009DDC95 /* RSHTTPSessionManager.h */; };
+		E2AC76E61EF6EBD3009DDC95 /* RSHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E2AC76E41EF6EBD3009DDC95 /* RSHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2AC76E71EF6EBD3009DDC95 /* RSHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AC76E51EF6EBD3009DDC95 /* RSHTTPSessionManager.m */; };
 /* End PBXBuildFile section */
 
