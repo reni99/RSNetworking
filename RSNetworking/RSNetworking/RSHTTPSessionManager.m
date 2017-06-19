@@ -7,7 +7,7 @@
 //
 
 #import "RSHTTPSessionManager.h"
-#import <AFNetworking.h>
+#import "AFNetworking.h"
 
 @implementation RSHTTPSessionManager
 @end
