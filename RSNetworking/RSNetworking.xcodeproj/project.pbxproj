@@ -317,6 +317,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6EB170824271A67B1F44ED7 /* Pods-RSNetworking.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BD7VD67BSV;
@@ -338,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBE28BFE60B87FFF9BFDDBE5 /* Pods-RSNetworking.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BD7VD67BSV;
